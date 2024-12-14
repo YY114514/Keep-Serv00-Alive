@@ -4,7 +4,7 @@ const exec = require("child_process").exec;
 const app = express();
 const port = 3000;
 
-const user = "Serv00登录用户名"; //此处修改为Serv00的用户名
+const user = "younglight"; //此处修改为Serv00的用户名
 const pName = "s5";
 
 app.use(express.static(path.join(__dirname, 'static')));
